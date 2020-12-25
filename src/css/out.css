@@ -1,0 +1,27 @@
+.card {
+  @apply rounded-none border;
+  @screen md {
+    @apply rounded-lg;
+  }
+}
+
+.debug {
+  border: 1px solid #000;
+}
+.box {
+  @apply p-8 bg-red-600 w-64;
+  h1 {
+    @apply font-sans text-4xl;
+  }
+}
+
+
+.element {
+  @apply p-10 bg-gray-800;
+  &__container {
+    @apply w-64 mx-auto border;
+  }
+  &__el1 {
+    @apply text-green-400 text-4xl;
+  }
+}
