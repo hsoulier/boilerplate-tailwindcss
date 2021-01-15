@@ -1,4 +1,5 @@
 dist/js
 dist/**/*.js
+dist/**/*.map
 yarn.lock
 node_modules
