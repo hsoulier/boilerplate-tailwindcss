@@ -1,0 +1,11 @@
+.title {
+  @apply text-5xl;
+}
+
+h1 {
+  @apply text-blue-400;
+}
+
+.para {
+  @apply text-sm w-4/5 mx-auto bg-blue-200 text-gray-500 p-4;
+}
