@@ -1,4 +1,14 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "./extends";
 @import "./typography";
+
+body {
+  @apply relative;
+}
+
+canvas {
+  @extend %fullscreen;
+  @apply top-0 left-0;
+}

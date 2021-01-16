@@ -31167,27 +31167,38 @@ video {
           animation: bounce 1s infinite;
 }
 
-.title {
+.text {
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.text .heading-1 {
+  font-weight: 700;
   font-size: 3rem;
   line-height: 1;
 }
 
-h1 {
-  --tw-text-opacity: 1;
-  color: rgba(96, 165, 250, var(--tw-text-opacity));
+.text a {
+  padding: 0.75rem;
 }
 
-.para {
-  --tw-bg-opacity: 1;
-  background-color: rgba(191, 219, 254, var(--tw-bg-opacity));
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1rem;
-  --tw-text-opacity: 1;
-  color: rgba(107, 114, 128, var(--tw-text-opacity));
-  width: 80%;
+body {
+  position: relative;
+}
+
+canvas {
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+  top: 0px;
+  left: 0px;
 }
 
 @media (min-width: 640px) {
